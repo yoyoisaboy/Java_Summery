@@ -51,11 +51,11 @@
       <input type="submit"/>  
    </form>
 
-   <h2>面積為 : </h2> 
+   
    <p th:text="'a =  :' +  ${triangle_sides.side_a}"></p>
    <p th:text="'b =  :' +  ${triangle_sides.side_b}"></p>
    <p th:text="'c =  :' +  ${triangle_sides.side_c}"></p>
-   <p th:text="'Area :' +  ${area}"></p>
+   <h2>面積為 : <p th:text=" '' +${area}"></p></h2> 
   </body>
   <h4><a th:href="@{/url_homePage}">回主頁</a></h4>
 </html>
