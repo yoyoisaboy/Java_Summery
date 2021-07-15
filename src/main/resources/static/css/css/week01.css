@@ -1,0 +1,68 @@
+.element.style {
+    vertical-align: inherit;
+}
+.h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+    
+}
+.table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+.body {
+    margin-top: 0;
+    font-family: sans-serif;
+    line-height: 150%;
+}
+
+.katex .reset-textstyle.textstyle {
+    font-size: 1em;
+}
+.art .katex {
+    font-size: 0.8em;
+}
+.input-group input {
+    width: 6em;
+}
+.katex {
+    font: 400 1.21em KaTeX_Main;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-indent: 0;
+}
+input {
+    padding-left: 0.3em;
+    width: auto;
+    border: solid 1px #DDD;
+}
+input[type="number" i] {
+    padding: 1px 2px;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}

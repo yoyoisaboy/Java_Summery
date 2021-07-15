@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        .white-bg {
+          background-color: rgb(248, 202, 202);
+        }
+        .gray-bg {
+          background-color: rgb(142, 160, 142);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Java_Summery</h1>
+    <table>
+      <colgroup>
+          <col span="2" class="white-bg">
+          <col span="1" class="gray-bg">
+      </colgroup>
+      <colgroup style="background-color: rgb(247, 247, 157);"></colgroup>
+
+      <tr>
+        <th>第幾周</th>
+        <th>內容</th>
+        <th>作業</th>
+        <th>URL</th>
+      </tr>
+      <tr>
+        <td>Week_01</td>
+        <td>課程介紹</td>
+        <td>三角形面積計算機</td>
+        <td><a th:href="@{/week01}">URL</a></td>
+
+      </tr>
+    </table>
+
+    
+</body>
+</html>
