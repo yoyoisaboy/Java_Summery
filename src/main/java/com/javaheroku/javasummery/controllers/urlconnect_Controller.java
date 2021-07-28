@@ -30,17 +30,17 @@ public class urlconnect_Controller {
     public String Post_week01(@ModelAttribute week01_htmlrequest_getsides triangle_sides, Model model) {
         
         week01_coluction_function ans = new week01_coluction_function();
-
+    
         double side_a = triangle_sides.getSide_a();
         double side_b = triangle_sides.getSide_b();
         double side_c = triangle_sides.getSide_c();
         
         model.addAttribute("triangle_sides", triangle_sides);
         model.addAttribute("area", ans.main(side_a,side_b,side_c));
-        
+    
         return "week01";
     }
 
-    
-
 }
+
+
